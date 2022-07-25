@@ -158,7 +158,7 @@
 
         <!-- meter -->
 
-<meter id="disk_d" value="0.6">60%</meter>
+<meter id="disk_d" value="50" max="100">60%</meter>
        
 <!-- The nav element defines a set of navigation links -->
 
@@ -194,5 +194,164 @@
 <picture>
     <img src="../git-line-practice/images/bg.jpg" alt="Flowers" style="width:500px; height: 100px;">
   </picture>
-    </body>
+
+  <!-- The <pre> tag defines preformatted text -->
+
+  <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks
+    </pre>
+
+    <!-- progress -->
+
+    <progress id="file" value="32" max="100"> 32% </progress>
+
+     <!-- q-quotation -->
+
+  <p>WWF's goal is to: 
+  <q>Build a future where people live in harmony with nature.</q>
+     We hope they succeed.</p>
+<!--   
+     <ruby> element consists of one or more characters that needs an explanation/pronunciation
+     <rt> element that gives that information
+     <rp> element that defines what to show for browsers. -->
+
+     <ruby>
+      漢 <rp>(</rp><rt>fabevy</rt><rp>)</rp>
+      </ruby>
+      
+      <!-- <s> tag specifies text that is no longer correct -->
+
+        <p><s>Only 50 tickets left!</s></p>
+        <p>SOLD OUT!</p>
+
+       <!-- samp- Define some text as sample output from a computer program in a document -->
+
+       <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+       <!-- JavaScript -->
+        
+       <script>
+        alert("HTML TAGS")
+       </script>
+        <!-- section-act an container -->
+
+      <section>
+       <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+      </section>
+
+         <!-- select-Create a drop-down list -->
+         
+         <form action="/action_page.php">
+          <label for="name">Choose a car:</label>
+          <select name="name" id="name">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+  
+        <!-- Define a smaller text -->
+
+        <p>This is some normal text.</p>
+          <p><small>This is some smaller text.</small></p>
+
+          <!-- source-give a source path -->
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- A <span> element which is used to color a part of a text -->
+
+  <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+  The <strike> tag was used in HTML 4 to define strikethrough text.</strike>
+
+    <!-- strong-Define important text in a document -->
+
+<strong>This text is important!</strong>
+
+    <!-- style -->
+
+<style>
+  h1 {color:red;}
+  p {color:blue;}
+  </style>
+  </head>
+  
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+  
+  <!-- The sub and sup elements -->
+
+  <p>This text contains <sub>subscript</sub> text.</p>
+  <p>This text contains <sup>superscript</sup> text.</p>
+
+  <!-- Using the <summary> element -->
+
+    <details>
+      <summary>Epcot Center</summary>
+      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    Draw a circle:
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="yellow" />
+</svg>
+
+<!-- A simple HTML table, containing two columns and two rows -->
+            <!-- block-element -->
+<!-- An HTML table with a <thead>, <tbody>, and a <tfoot> element -->
+
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+  <!-- How to define a time and a date -->
+
+  <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+  
+  <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+  <!-- Define a title for your HTML document -->
+
+  <title>Document</title>
+
+  <!-- A text with word break opportunities -->
+       
+<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+
+        </body>
 </html>
